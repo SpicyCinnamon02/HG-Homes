@@ -50,6 +50,7 @@ export default {
         "green-light": "#D5ED9F",
         "green-darker": "#16423C",
         "green-mid": "#557846",
+        "green-lightest": "#E2F1E7",
         "yellow-primary": "#f2c800",
         "yellow-light": "#FCDE70",
         "green-dark" : "#00712D",
