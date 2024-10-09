@@ -6,6 +6,14 @@ export default {
   ],
   theme: {
     extend: {
+      textStrokeWidth: {
+        '1': '1px',
+        '2': '2px',
+      },
+      textStrokeColor: {
+        'white': '#ffffff',
+        'black': '#000000',
+      },
       backdropBlur: {
         'extra-sm': '2px',
         '4xl': '40px',     
@@ -65,6 +73,24 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.text-stroke-1': {
+          '-webkit-text-stroke-width': '1px',
+        },
+        '.text-stroke-2': {
+          '-webkit-text-stroke-width': '2px',
+        },
+        '.text-stroke-black': {
+          '-webkit-text-stroke-color': '#000',
+        },
+        '.text-stroke-white': {
+          '-webkit-text-stroke-color': '#fff',
+        },
+      };
+      addUtilities(newUtilities);
+    },
+  ],
 }
 

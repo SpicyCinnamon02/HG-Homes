@@ -87,7 +87,7 @@ const Navbar = () => {
                             </a>
                             {navLinks.length - 1 !== i && (
                                 <Separator orientation="vertical"
-                                    className="h-5 w-[2px] bg-gray-300" />
+                                    className="h-6 w-[2px] bg-gray-300" />
                             )}
                         </div>
                     ))}
