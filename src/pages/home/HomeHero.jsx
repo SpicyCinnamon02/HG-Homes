@@ -8,7 +8,7 @@ const HomeHero = () => {
       style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(${HeroBG})` }}
     >
       <div className='flex justify-center items-center flex-col w-[85%] lg:w-[80%]' >
-        <h1 className='text-[30px] lg:text-[80px] font-bold text-white tracking-tight text-stroke-1 text-stroke-black'>Your Dream Home Awaits</h1>
+        <h1 className='text-[30px] lg:text-[80px] font-bold text-white tracking-tight'>Your Dream Home Awaits</h1>
         <p className='text-[20px] lg:text-[30px] font-medium text-center text-white tracking-tight'>
           Modern, energy-efficient homes designed for comfort and sustainability.
         </p>
