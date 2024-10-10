@@ -2,9 +2,6 @@ import React from 'react';
 import Container from '../elements/Container';
 import Separator from '../elements/ui/Separator';
 import { FaFacebookF, FaPhone } from "react-icons/fa6";
-import { Link } from 'react-router-dom';
-import { GiHamburgerMenu } from "react-icons/gi";
-import { IoMdClose } from "react-icons/io";
 import MobileNavbar from './MobileNavbar';
 
 export const navLinks = [

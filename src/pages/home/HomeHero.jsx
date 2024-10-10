@@ -13,13 +13,13 @@ const HomeHero = () => {
           Modern, energy-efficient homes designed for comfort and sustainability.
         </p>
       </div>
-      <div>
+      {/*<div>
         <button
           className="px-3 py-2 lg:px-6 lg:py-3 text-[16px] bg-green-light text-black font-semibold rounded-lg shadow-md hover:bg-green-darker focus:outline-none hover:text-white focus:ring-2 focus:ring-opacity-75 transition duration-300"
         >
           View House Plans
         </button>
-      </div>
+      </div>*/}
     </div>
   )
 }
