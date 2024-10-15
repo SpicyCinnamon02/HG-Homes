@@ -11,7 +11,7 @@ const MobileNavbar = () => {
     };
 
     return (
-        <div className="relative block lg:hidden w-full">
+        <div className="relative block lg:hidden lg:w-full">
             {/* Button for opening/closing the menu */}
             <button
                 onClick={toggleMenu}

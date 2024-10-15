@@ -50,7 +50,7 @@ const topNavLinks = [
 
 const Navbar = () => {
     return (
-        <Container className='absolute z-40 w-full  pt-[10px] lg:pt-[30px] pb-4 shadow-lg flex justify-between lg:items-between lg:justify-center lg:flex-col bg-opacity-20'>
+        <Container className='absolute z-40 w-full  pt-[10px] lg:pt-[30px] pb-4 shadow-lg flex flex justify-between items-center lg:items-between lg:justify-center lg:flex-col bg-opacity-20'>
             <div className="md:flex hidden justify-end items-center w-full">
                 <div className="flex justify-center items-end">
                     {topNavLinks.map((link, i) => (
@@ -69,7 +69,7 @@ const Navbar = () => {
             </div>
             <div className='flex justify-between items-baseline flex-wrap'>
                 <div className='flex-start'>
-                    <h1 className='text-[30px] md:text-[40px] font-extrabold tracking-tighter text-green-light'>
+                    <h1 className='text-[25px] md:text-[40px] font-extrabold tracking-tighter text-green-light'>
                         HG Homes
                     </h1>
                 </div>
